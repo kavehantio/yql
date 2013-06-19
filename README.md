@@ -1,4 +1,4 @@
 yql
 ===
 
-Yaho Query Language
+Yahoo Query Language
