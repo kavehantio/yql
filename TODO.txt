@@ -1,0 +1,4 @@
+Below is a list of things I want to add
+Ability to imiport array from CSV
+Ability to switch between realtime and delayed depending on time of day
+Write out results to a file format that works well for hadoop (ORC, Parquet, etc...)
