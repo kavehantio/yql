@@ -13,6 +13,7 @@ delayedQuery = 'sl1ba&e' # works better during normal hours - change in query de
 
 def generateDisplay(stock):
 	query = 'select * from csv where url="http://download.finance.yahoo.com/d/quotes.csv?s=%s&f=%s=.csv" and columns="symbol,last,bid,ask"' % (stock, realTimeQuery)
+	print query 
 	result = y.execute(query)
 	result.rows
 	for row in result.rows:
